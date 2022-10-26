@@ -1,11 +1,12 @@
 <mat-tab-group class="content-products">
-    <mat-tab label="Eletrônicos"> 
-        <li *ngFor="let prof of product">
-
+    <mat-tab label="Eletrônicos">
+        <li *ngFor="let product of listProductsEle">
+            {{product.name}}
         </li>
     </mat-tab>
-    <mat-tab label="Roupas">  
-        
+    <mat-tab label="Roupas">
+        <li *ngFor="let product of listProductsRoup">
+            {{product.name}}
+        </li>
     </mat-tab>
 </mat-tab-group>
-
