@@ -1,0 +1,63 @@
+.login-page {
+  background: var(--brand-grad-dia-or)
+}
+
+.back-button {
+  width: 240px;
+  padding: 35px 50px 15px 50px;
+  color: white;
+  font-size: 22px;
+
+  fa-icon {
+    font-size: 40px;
+    fill: white;
+  }
+
+  p {
+    margin: auto;
+  }
+}
+
+.login-card {
+  margin: 15px auto 150px auto;
+  max-width: 430px;
+  padding: 50px;
+  border-radius: 10px;
+
+  a {
+    color: black;
+  }
+}
+
+.login-card-logo {
+  max-width: 180px;
+}
+
+.login-subtitle {
+  font-size: 18px;
+  font-weight: 800;
+  color: #565656;
+  margin: 25px;
+}
+
+.login-form {
+  label {
+    font-size: 13px;
+  }
+
+  mat-form-field {
+    width: 100%;
+  }
+}
+
+.submit-login-button {
+  width: 240px;
+  height: 50px;
+  background-color: #5fb371;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border-radius: 7px;
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+}
